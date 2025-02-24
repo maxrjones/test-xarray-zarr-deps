@@ -1,0 +1,10 @@
+name: test-older-xarray
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - pooch
+  - xarray=2024.6.0
+  - zarr=3.0.3
+  - jupyterlab
+  - netcdf4
