@@ -1,0 +1,10 @@
+name: test-newer-xarray
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - pooch
+  - xarray=2025.1.2
+  - zarr=3.0.3
+  - jupyterlab
+  - netcdf4
